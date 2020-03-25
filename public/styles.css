@@ -1,0 +1,260 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=Amiri|Sen|VT323&display=swap");
+
+/* 
+COLOR PALETTE:
+#E8E7E8
+#181617
+*/
+
+.sen-font {
+  font-family: Sen, sans-serif;
+}
+
+#nav {
+  background-color: #181617;
+  color: #e8e7e8;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#navbar-title {
+  color: #e8e7e8;
+  font-family: VT323;
+  font-size: 50px;
+}
+
+.app-body {
+  background-color: #e8e7e8;
+}
+
+.home-heading-1 {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-fill-mode: ease-in;
+}
+@keyframes slidein {
+  from {
+    transform: translateX(-600%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.home-heading-2 {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+  animation-name: slidein2;
+  animation-duration: 1.5s;
+  animation-fill-mode: ease-in;
+}
+@keyframes slidein2 {
+  from {
+    transform: translateX(600%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.home-heading-3 {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+  animation-name: slidein3;
+  animation-duration: 2s;
+  animation-fill-mode: ease-in;
+}
+@keyframes slidein3 {
+  from {
+    transform: translateX(-600%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.home-heading-4 {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+  animation-name: slidein4;
+  animation-duration: 2.5s;
+  animation-fill-mode: ease-in;
+}
+@keyframes slidein4 {
+  from {
+    transform: translateX(600%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.footer {
+  background-color: #181617;
+  color: #e8e7e8;
+  height: 100px;
+}
+
+.footer-text {
+  padding: 30px;
+}
+
+.footer-icons {
+  font-size: 30px;
+  float: right;
+  margin-right: 10px;
+  color: #e8e7e8;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-icons:hover {
+  background-color: #181617;
+  box-shadow: 0px 10px 10px #e8e7e8;
+  color: #e8e7e8;
+  transform: translateY(-7px);
+}
+
+.motion-div {
+  width: 100vw;
+}
+
+.home-sections {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* adding display: table to parent and display: table-row to child makes the parent div height as big as its children, so the cards don't overflow onto subsequent divs*/
+.section-one {
+  display: table;
+  background-image: url("./background-images/Parkhill2.jpg");
+  /* Image by Paolo Margari from Sheffield, United Kingdom / Italy / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-two {
+  background-color: #181617;
+  display: table;
+}
+
+.section-three {
+  background-image: url("./background-images/Parkhill2.jpg");
+  /* Image by Paolo Margari from Sheffield, United Kingdom / Italy / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+}
+
+.card {
+  margin: 5rem 2rem 5rem;
+  display: table-row;
+  font-family: sen;
+  background-color: #e8e7e8 !important;
+  box-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+}
+
+.card-btn-left {
+  float: left;
+  margin-right: 10px;
+  border-radius: 50px !important;
+  box-shadow: 0 0 3px #0000ff, 0 0 5px #ff0000;
+}
+
+.card-btn-right {
+  border-radius: 50px !important;
+  box-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.card-img {
+  filter: grayscale(50%);
+}
+
+/* FONT AWESOME ICONS */
+
+.fa-icons {
+  font-size: 50px;
+  list-style: none;
+  display: table-row;
+  filter: drop-shadow(0 0 0.1rem white);
+  text-align: center;
+}
+
+.html-logo {
+  color: red;
+}
+
+.css-logo {
+  color: blue;
+}
+
+.js-logo {
+  color: #f0db4f;
+}
+
+.jquery-logo {
+  color: #0567ab;
+}
+
+.react-logo {
+  color: #5dd9fb;
+}
+
+.git-logo {
+  color: black;
+}
+
+.node-logo {
+  color: #74ac63;
+}
+
+.mongodb-logo {
+  color: #69b240;
+}
+
+.about-me-page {
+  background-image: url("./background-images/tinsleyTowers.jpg");
+  /* "Tinsley Towers and Meadowhall at Night'' by Alan Hood from Sheffield, United Kingdom / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.contact-page {
+  background-image: url("./background-images/Sheffieldtram.jpg");
+  /* Image by Hammersfan from Sheffield, United Kingdom / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
