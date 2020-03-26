@@ -3,6 +3,7 @@ import placeholder from "../Images/placeholder.jpeg";
 import SimonGame from "../Images/SimonGame.jpeg";
 import Newsletter from "../Images/Newsletter.jpeg";
 import Drums from "../Images/Drums.jpeg";
+import Todolist from "../Images/Todolist.jpeg";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
@@ -85,21 +86,29 @@ function HomeSectionTwo() {
           <Row>
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
-                <Card.Img
-                  variant="top"
-                  src={placeholder}
-                  className="card-img"
-                />
+                <Card.Img variant="top" src={Todolist} className="card-img" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>To-do List</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Todo-list made with node.js / express / ejs. Uses mongoDB
+                    and mongoose, hosted on Heroku / MongoDB Atlas. User can
+                    create their own todolist using express route params. Data
+                    persists.
                   </Card.Text>
-                  <Button variant="primary" className="card-btn-left">
+                  <Button
+                    variant="primary"
+                    className="card-btn-left"
+                    href="https://immense-spire-07308.herokuapp.com/"
+                    target="_blank"
+                  >
                     Project
                   </Button>
-                  <Button variant="danger" className="card-btn-right">
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/todolist-app-v2"
+                    target="_blank"
+                  >
                     Code
                   </Button>
                 </Card.Body>

@@ -1,5 +1,11 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs,
+  FaBootstrap
+} from "react-icons/fa";
 import { IoLogoJavascript, IoLogoGithub } from "react-icons/io";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
 import Flip from "react-reveal/Flip";
@@ -11,7 +17,9 @@ function HomeSectionThree() {
         <Flip top cascade duration="3000">
           <li>
             <FaHtml5 className="html-logo" />
-            <FaCss3Alt className="css-logo" /> <br></br>HTML CSS
+            <FaCss3Alt className="css-logo" />
+            <FaBootstrap className="bootstrap-logo" />
+            <br></br>HTML, CSS, Bootstrap
           </li>
 
           <li>
