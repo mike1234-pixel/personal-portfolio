@@ -29,95 +29,23 @@ COLOR PALETTE:
   background-color: #e8e7e8;
 }
 
-.home-heading-1 {
+.home-heading {
   text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
   display: table-row;
   font-family: Sen;
   font-size: 5rem;
   text-align: center;
   margin-top: 50px;
-  /*  animation-name: slidein;
-  animation-duration: 1s;
-  animation-fill-mode: ease-in;
 }
-@keyframes slidein {
-  from {
-    transform: translateX(-600%);
+
+@media (max-width: 460px) {
+  .home-heading {
+    font-size: 2.5rem;
   }
-
-  to {
-    transform: translateX(0%);
-  } */
-}
-
-.home-heading-2 {
-  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
-  display: table-row;
-  font-family: Sen;
-  font-size: 5rem;
-  text-align: center;
-  margin-top: 50px;
-  /* animation-name: slidein2;
-  animation-duration: 1.5s;
-  animation-fill-mode: ease-in;
-}
-@keyframes slidein2 {
-  from {
-    transform: translateX(600%);
-  }
-
-  to {
-    transform: translateX(0%);
-  } */
-}
-
-.home-heading-3 {
-  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
-  display: table-row;
-  font-family: Sen;
-  font-size: 5rem;
-  text-align: center;
-  margin-top: 50px;
-  /*  animation-name: slidein3;
-  animation-duration: 2s;
-  animation-fill-mode: ease-in;
-}
-@keyframes slidein3 {
-  from {
-    transform: translateX(-600%);
-  }
-
-  to {
-    transform: translateX(0%);
-  } */
-}
-
-.home-heading-4 {
-  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
-  display: table-row;
-  font-family: Sen;
-  font-size: 5rem;
-  text-align: center;
-  margin-top: 50px;
-  /*  animation-name: slidein4;
-  animation-duration: 2.5s;
-  animation-fill-mode: ease-in;
-}
-@keyframes slidein4 {
-  from {
-    transform: translateX(600%);
-  }
-
-  to {
-    transform: translateX(0%);
-  } */
 }
 
 @media (min-width: 2560px) {
-  .home-heading-1,
-  .home-heading-2,
-  .home-heading-3,
-  .home-heading-4 {
+  .home-heading {
     font-size: 10rem;
   }
 }
@@ -184,14 +112,24 @@ COLOR PALETTE:
   display: table;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
 }
 
 .card {
   margin: 5rem 2rem 5rem;
   display: table-row;
   font-family: sen;
-  background-color: #e8e7e8 !important;
+  /* background-color: #e8e7e8 !important; */
+  background-image: url("./background-images/SheffieldCityHall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+}
+
+@media (max-width: 460px) {
+  .card {
+    margin: 2.5rem 1rem 2.5rem;
+  }
 }
 
 .card-btn-left {
@@ -250,8 +188,12 @@ COLOR PALETTE:
   color: #5dd9fb;
 }
 
-.git-logo {
+.github-logo {
   color: black;
+}
+
+.git-logo {
+  color: #f05033;
 }
 
 .node-logo {
@@ -284,9 +226,36 @@ COLOR PALETTE:
   display: table;
 }
 
+.contact-child-div {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+}
+
+.contact-heading {
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.contact-text {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 460px) {
+  .contact-heading {
+    font-size: 2.5rem;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+}
+
 /* 
 SCREEN RESOLUTIONS:
-Mobile. Home.
+Mobile (max-width: 460). Home.
 PC - 1366x768. Home.
 PC - 1920x1080. Home.
 PC - 2560x1600. Home.

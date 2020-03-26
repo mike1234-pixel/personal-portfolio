@@ -54,10 +54,20 @@ function HomeSectionTwo() {
                     Using Express server with Mailchimp API to allow users to
                     sign up to mailing list, server deployed on Heroku.
                   </Card.Text>
-                  <Button variant="primary" className="card-btn-left">
+                  <Button
+                    variant="primary"
+                    className="card-btn-left"
+                    href="https://ancient-stream-79404.herokuapp.com/"
+                    target="_blank"
+                  >
                     Project
                   </Button>
-                  <Button variant="danger" className="card-btn-right">
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/Newsletter-Signup"
+                    target="_blank"
+                  >
                     Code
                   </Button>
                 </Card.Body>
@@ -69,12 +79,25 @@ function HomeSectionTwo() {
                 <Card.Body>
                   <Card.Title>Drum Kit</Card.Title>
                   <Card.Text>
-                    Simple drum kit app made using vanilla JS.
+                    Simple drum kit app made using vanilla JS.<br></br>
+                    <br></br>Ba
+                    <br></br>da<br></br>boom.<br></br>
+                    <br></br>
                   </Card.Text>
-                  <Button variant="primary" className="card-btn-left">
+                  <Button
+                    variant="primary"
+                    className="card-btn-left"
+                    href="https://mike1234-pixel.github.io/Drum-Machine/"
+                    target="_blank"
+                  >
                     Project
                   </Button>
-                  <Button variant="danger" className="card-btn-right">
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/Drum-Machine"
+                    target="_blank"
+                  >
                     Code
                   </Button>
                 </Card.Body>

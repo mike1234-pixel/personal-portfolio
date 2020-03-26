@@ -4,7 +4,8 @@ import {
   FaCss3Alt,
   FaReact,
   FaNodeJs,
-  FaBootstrap
+  FaBootstrap,
+  FaGitAlt
 } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoGithub } from "react-icons/io";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
@@ -14,7 +15,7 @@ function HomeSectionThree() {
   return (
     <div className="home-sections section-three">
       <ul className="fa-icons">
-        <Flip top cascade duration="3000">
+        <Flip top cascade>
           <li>
             <FaHtml5 className="html-logo" />
             <FaCss3Alt className="css-logo" />
@@ -30,7 +31,9 @@ function HomeSectionThree() {
           </li>
 
           <li>
-            <IoLogoGithub className="git-logo" /> <br></br>Git, Github, Unix CLI
+            <FaGitAlt className="git-logo" />
+            <IoLogoGithub className="github-logo" />
+            <br></br>Git, Github, Unix CLI
           </li>
           <li>
             <FaNodeJs className="node-logo" /> <br></br>Node.js, Express, EJS

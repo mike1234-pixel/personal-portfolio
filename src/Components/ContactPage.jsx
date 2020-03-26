@@ -3,6 +3,10 @@ import Navigation from "./Navigation.jsx";
 import Footer from "./Footer.jsx";
 import { motion } from "framer-motion";
 import pageTransition from "./pageTransition.js";
+import { IoMdText } from "react-icons/io";
+import { MdEmail, MdVoicemail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
+import Jello from "react-reveal/Jello";
 
 function ContactPage() {
   return (
@@ -16,36 +20,32 @@ function ContactPage() {
     >
       <Navigation />
       <div className="contact-page">
-        <h1>BEST WAYS TO GET IN TOUCH</h1>
-        <p>Text: guaranteed quick response!</p>
-        <p>Email: probable fast response, I'll reply as soon as I see it</p>
-        <p>
-          Phone call: please send me an email or text to arrange a call, I
-          ignore unsolicited calls.
-        </p>
-        <p>Voicemail. I do not listen to my voicemail, bad idea.</p>
-        <br></br>
-        <br></br>
-        <br></br>
-        <h1>BEST WAYS TO GET IN TOUCH</h1>
-        <p>Text: guaranteed quick response!</p>
-        <p>Email: probable fast response, I'll reply as soon as I see it</p>
-        <p>
-          Phone call: please send me an email or text to arrange a call, I
-          ignore unsolicited calls.
-        </p>
-        <p>Voicemail. I do not listen to my voicemail, bad idea.</p>
-        <h1>BEST WAYS TO GET IN TOUCH</h1>
-        <p>Text: guaranteed quick response!</p>
-        <p>Email: probable fast response, I'll reply as soon as I see it</p>
-        <p>
-          Phone call: please send me an email or text to arrange a call, I
-          ignore unsolicited calls.
-        </p>
-        <p>Voicemail. I do not listen to my voicemail, bad idea.</p>
-        <br></br>
-        <br></br>
-        <br></br>
+        <div className="contact-child-div">
+          <Jello>
+            <h1 className="contact-heading">Best ways to get in touch:</h1>
+            <div className="contact-text">
+              <IoMdText />
+              <h2>Text/SMS</h2>
+              <p>Text/SMS: guaranteed quick response!</p>
+              <MdEmail />
+              <h2>Email</h2>
+              <p>Fast response, I'll reply as soon as I see it</p>
+              <FaPhone />
+              <h2>Phone</h2>
+              <p>Feel free to text or email to arrange a phone call.</p>
+              <MdVoicemail />
+              <h2>Voicemail</h2>
+              <p>I'm very bad with voicemail, bad way to contact.</p>
+              <p>07769 583 616</p>
+              <a
+                href="mailto:mike.tandy.1@gmail.com"
+                style={{ textDecoration: "none" }}
+              >
+                <p>mike.tandy.1@gmail.com</p>
+              </a>
+            </div>
+          </Jello>
+        </div>
       </div>
       <Footer />
     </motion.div>

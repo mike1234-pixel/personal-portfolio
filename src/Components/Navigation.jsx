@@ -71,11 +71,6 @@ function Navigation() {
             </Link>
           </Nav.Link>
         </Nav>
-        <Nav>
-          <Nav.Link eventKey={2} href="#memes" className="sen-font">
-            Dank memes
-          </Nav.Link>
-        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
