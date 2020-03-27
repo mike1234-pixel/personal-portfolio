@@ -1,15 +1,15 @@
 import React from "react";
-import placeholder from "../Images/placeholder.jpeg";
-import SimonGame from "../Images/SimonGame.jpeg";
-import Newsletter from "../Images/Newsletter.jpeg";
-import Drums from "../Images/Drums.jpeg";
-import Todolist from "../Images/Todolist.jpeg";
+import SimonGame from "../../Images/SimonGame.jpeg";
+import Newsletter from "../../Images/Newsletter.jpeg";
+import Drums from "../../Images/Drums.jpeg";
+import Todolist from "../../Images/Todolist.jpeg";
+import Server from "../../Images/Server.jpeg";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
 function HomeSectionTwo() {
   return (
-    <div className="home-sections section-two">
+    <div className="home-sections section-two" id="section-two">
       <Container>
         <Fade duration="2000">
           <Row>
@@ -75,40 +75,6 @@ function HomeSectionTwo() {
             </Col>
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
-                <Card.Img variant="top" src={Drums} className="card-img" />
-                <Card.Body>
-                  <Card.Title>Drum Kit</Card.Title>
-                  <Card.Text>
-                    Simple drum kit app made using vanilla JS.<br></br>
-                    <br></br>Ba
-                    <br></br>da<br></br>boom.<br></br>
-                    <br></br>
-                  </Card.Text>
-                  <Button
-                    variant="primary"
-                    className="card-btn-left"
-                    href="https://mike1234-pixel.github.io/Drum-Machine/"
-                    target="_blank"
-                  >
-                    Project
-                  </Button>
-                  <Button
-                    variant="danger"
-                    className="card-btn-right"
-                    href="https://github.com/mike1234-pixel/Drum-Machine"
-                    target="_blank"
-                  >
-                    Code
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Fade>
-        <Fade duration="2000">
-          <Row>
-            <Col xs={12} s={6} md={6} lg={4}>
-              <Card style={{ width: "18rem" }} className="card">
                 <Card.Img variant="top" src={Todolist} className="card-img" />
                 <Card.Body>
                   <Card.Title>To-do List</Card.Title>
@@ -137,23 +103,35 @@ function HomeSectionTwo() {
                 </Card.Body>
               </Card>
             </Col>
+          </Row>
+        </Fade>
+        <Fade duration="2000">
+          <Row>
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
-                <Card.Img
-                  variant="top"
-                  src={placeholder}
-                  className="card-img"
-                />
+                <Card.Img variant="top" src={Drums} className="card-img" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Drum Kit</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Simple drum kit app made using vanilla JS.<br></br>
+                    <br></br>Ba
+                    <br></br>da<br></br>boom.<br></br>
+                    <br></br>
                   </Card.Text>
-                  <Button variant="primary" className="card-btn-left">
+                  <Button
+                    variant="primary"
+                    className="card-btn-left"
+                    href="https://mike1234-pixel.github.io/Drum-Machine/"
+                    target="_blank"
+                  >
                     Project
                   </Button>
-                  <Button variant="danger" className="card-btn-right">
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/Drum-Machine"
+                    target="_blank"
+                  >
                     Code
                   </Button>
                 </Card.Body>
@@ -161,21 +139,19 @@ function HomeSectionTwo() {
             </Col>
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
-                <Card.Img
-                  variant="top"
-                  src={placeholder}
-                  className="card-img"
-                />
+                <Card.Img variant="top" src={Server} className="card-img" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>RESTful API</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Basic wiki API built using Node.js, Express, MongoDB and
+                    Mongoose. Handles get, post, put, patch and delete requests.
                   </Card.Text>
-                  <Button variant="primary" className="card-btn-left">
-                    Project
-                  </Button>
-                  <Button variant="danger" className="card-btn-right">
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/REST-API/blob/master/app.js"
+                    target="_blank"
+                  >
                     Code
                   </Button>
                 </Card.Body>
@@ -189,3 +165,7 @@ function HomeSectionTwo() {
 }
 
 export default HomeSectionTwo;
+
+// Image Attributions
+// SimonGame & Newsletter images - public domain images taken from wikimedia commons - This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication
+// Drums, TodoList and Server images - taken from pexels, no attr required

@@ -8,8 +8,8 @@ This is a static front-end only site built using React.
 It uses the animation libraries framer-motion for page transitions and react-reveal for animations on HTML elements.
 Routing is done using react-router-dom.
 Images are taken from wikimedia commons and pexels. Attributions, where necessary to the licence, are given in the files where the images are used.
-The site is designed to be responsive for screen sizes from mobile through to laptops with a 2560px resolution.
-Components such as the navigation bar and cards are bootstrapped.
+The site is designed to be responsive for screen sizes from mobile through to laptops with a 2560px resolution, as well as tablets.
+Components such as the navigation bar and cards are made using Bootstrap components.
 
 ## Available Scripts
 

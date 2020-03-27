@@ -1,8 +1,8 @@
 import React from "react";
 import Navigation from "./Navigation.jsx";
-import HomeSectionOne from "./HomeSectionOne.jsx";
-import HomeSectionTwo from "./HomeSectionTwo";
-import HomeSectionThree from "./HomeSectionThree";
+import HomeSectionOne from "./HomePageSections/HomeSectionOne.jsx";
+import HomeSectionTwo from "./HomePageSections/HomeSectionTwo";
+import HomeSectionThree from "./HomePageSections/HomeSectionThree";
 import Footer from "./Footer.jsx";
 import { motion } from "framer-motion";
 import pageTransition from "./pageTransition.js";

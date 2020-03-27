@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal";
+import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 function HomeSectionOne() {
   return (
@@ -10,6 +11,11 @@ function HomeSectionOne() {
         <h1 className="home-heading">JavaScript</h1>
         <h1 className="home-heading">Developer</h1>
       </Fade>
+      <div className="arrow bounce">
+        <a href="#section-two">
+          <IoIosArrowDropdownCircle style={{ color: "#181617" }} />
+        </a>
+      </div>
     </div>
   );
 }

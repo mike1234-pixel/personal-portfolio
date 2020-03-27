@@ -6,7 +6,7 @@ import pageTransition from "./pageTransition.js";
 import { IoMdText } from "react-icons/io";
 import { MdEmail, MdVoicemail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
-import Jello from "react-reveal/Jello";
+import Fade from "react-reveal/Fade";
 
 function ContactPage() {
   return (
@@ -21,15 +21,15 @@ function ContactPage() {
       <Navigation />
       <div className="contact-page">
         <div className="contact-child-div">
-          <Jello>
-            <h1 className="contact-heading">Best ways to get in touch:</h1>
-            <div className="contact-text">
+          <Fade top cascade>
+            <h1 className="general-heading">Best ways to get in touch:</h1>
+            <div className="general-body-text">
               <IoMdText />
               <h2>Text/SMS</h2>
-              <p>Text/SMS: guaranteed quick response!</p>
+              <p>Guaranteed quick response!</p>
               <MdEmail />
               <h2>Email</h2>
-              <p>Fast response, I'll reply as soon as I see it</p>
+              <p>Fast response, I'll reply as soon as I see it.</p>
               <FaPhone />
               <h2>Phone</h2>
               <p>Feel free to text or email to arrange a phone call.</p>
@@ -41,10 +41,10 @@ function ContactPage() {
                 href="mailto:mike.tandy.1@gmail.com"
                 style={{ textDecoration: "none" }}
               >
-                <p>mike.tandy.1@gmail.com</p>
+                <p className="contact-email">mike.tandy.1@gmail.com</p>
               </a>
             </div>
-          </Jello>
+          </Fade>
         </div>
       </div>
       <Footer />
