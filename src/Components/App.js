@@ -12,7 +12,7 @@ function App() {
     <div style={{ position: "relative" }}>
       <AnimatePresence>
         <Switch location={location} key={location.pathname}>
-          <Route path="/Home" component={Home} />
+          <Route path="/" component={Home} />
           <Route path="/AboutMe" component={AboutMePage} />
           <Route path="/Contact" component={ContactPage} />
         </Switch>

@@ -6,10 +6,7 @@ function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" id="nav">
       <Navbar.Brand id="navbar-title">
-        <Link
-          to="/Home"
-          style={{ color: "inherit", textDecoration: "inherit" }}
-        >
+        <Link to="/" style={{ color: "inherit", textDecoration: "inherit" }}>
           Mike Tandy Dev
         </Link>
       </Navbar.Brand>
