@@ -12,7 +12,7 @@ function App() {
     <div style={{ position: "relative" }}>
       <AnimatePresence>
         <Switch location={location} key={location.pathname}>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/AboutMe" component={AboutMePage} />
           <Route path="/Contact" component={ContactPage} />
         </Switch>
@@ -24,3 +24,4 @@ function App() {
 export default App;
 
 //https://www.youtube.com/watch?v=qJt-FtzJ5fo - good intro to framer-motion
+// use word exact in home route otherwise it breaks
