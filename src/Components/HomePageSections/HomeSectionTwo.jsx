@@ -4,6 +4,7 @@ import Newsletter from "../../Images/Newsletter.jpeg";
 import Drums from "../../Images/Drums.jpeg";
 import Todolist from "../../Images/Todolist.jpeg";
 import Server from "../../Images/Server.jpeg";
+import Clock from "../../Images/Clock.jpeg";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
@@ -150,6 +151,36 @@ function HomeSectionTwo() {
                     variant="danger"
                     className="card-btn-right"
                     href="https://github.com/mike1234-pixel/REST-API/blob/master/app.js"
+                    target="_blank"
+                  >
+                    Code
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} s={6} md={6} lg={4}>
+              <Card style={{ width: "18rem" }} className="card">
+                <Card.Img variant="top" src={Clock} className="card-img" />
+                <Card.Body>
+                  <Card.Title>Pomodoro Clock</Card.Title>
+                  <Card.Text>
+                    Pomodoro Clock App made using React.<br></br>
+                    <br></br>The user can set their own session and break
+                    lengths, and the fourth break will be four times longer than
+                    the specified break length.
+                  </Card.Text>
+                  <Button
+                    variant="primary"
+                    className="card-btn-left"
+                    href="https://master.d2icos6v1wkh08.amplifyapp.com/"
+                    target="_blank"
+                  >
+                    Project
+                  </Button>
+                  <Button
+                    variant="danger"
+                    className="card-btn-right"
+                    href="https://github.com/mike1234-pixel/Pomodoro-Clock/blob/master/src/Clock.jsx"
                     target="_blank"
                   >
                     Code

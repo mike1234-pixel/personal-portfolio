@@ -57,6 +57,14 @@ function Navigation() {
             >
               RESTful API
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item
+              href="https://master.d2icos6v1wkh08.amplifyapp.com/"
+              target="_blank"
+              className="sen-font"
+            >
+              Pomodoro Clock
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className="sen-font">
             <Link
