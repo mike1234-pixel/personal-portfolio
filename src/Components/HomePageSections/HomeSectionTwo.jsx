@@ -13,7 +13,7 @@ function HomeSectionTwo() {
     <div className="home-sections section-two" id="section-two">
       <Container>
         <Fade duration="2000">
-          <Row>
+          <Row className="section-two-container">
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
                 <Card.Img variant="top" src={SimonGame} className="card-img" />
@@ -85,6 +85,8 @@ function HomeSectionTwo() {
                     create their own todolist using express route params. Data
                     persists.
                   </Card.Text>
+                  <br></br>
+                  <br></br>
                   <Button
                     variant="primary"
                     className="card-btn-left"
@@ -107,7 +109,7 @@ function HomeSectionTwo() {
           </Row>
         </Fade>
         <Fade duration="2000">
-          <Row>
+          <Row className="section-two-container">
             <Col xs={12} s={6} md={6} lg={4}>
               <Card style={{ width: "18rem" }} className="card">
                 <Card.Img variant="top" src={Drums} className="card-img" />
@@ -147,6 +149,9 @@ function HomeSectionTwo() {
                     Basic wiki API built using Node.js, Express, MongoDB and
                     Mongoose. Handles get, post, put, patch and delete requests.
                   </Card.Text>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                   <Button
                     variant="danger"
                     className="card-btn-right"

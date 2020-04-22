@@ -177,6 +177,13 @@ COLOR PALETTE:
   padding-bottom: 5rem;
 }
 
+.section-two-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .card {
   margin: 5rem 2rem 5rem;
   display: table-row;
@@ -187,6 +194,7 @@ COLOR PALETTE:
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  height: 80%;
 }
 
 @media (max-width: 460px) {
