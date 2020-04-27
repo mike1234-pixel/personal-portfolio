@@ -5,22 +5,24 @@ import {
   FaReact,
   FaNodeJs,
   FaBootstrap,
-  FaGitAlt
+  FaGitAlt,
+  FaSass,
 } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoGithub } from "react-icons/io";
 import { DiJqueryLogo, DiMongodb } from "react-icons/di";
-import Flip from "react-reveal/Flip";
+import Fade from "react-reveal/Fade";
 
 function HomeSectionThree() {
   return (
     <div className="home-sections section-three">
       <ul className="fa-icons">
-        <Flip top cascade>
+        <Fade top cascade>
           <li>
             <FaHtml5 className="html-logo" />
             <FaCss3Alt className="css-logo" />
             <FaBootstrap className="bootstrap-logo" />
-            <br></br>HTML, CSS, Bootstrap
+            <FaSass className="sass-logo" />
+            <br></br>HTML, CSS, Bootstrap, Sass
           </li>
 
           <li>
@@ -41,7 +43,7 @@ function HomeSectionThree() {
           <li>
             <DiMongodb className="mongodb-logo" /> <br></br>MongoDB, Mongoose
           </li>
-        </Flip>
+        </Fade>
       </ul>
     </div>
   );
