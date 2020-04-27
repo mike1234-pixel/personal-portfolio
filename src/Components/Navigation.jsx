@@ -65,6 +65,14 @@ function Navigation() {
             >
               Pomodoro Clock
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item
+              href="https://mike1234-pixel.github.io/SeeLondon-Project/"
+              target="_blank"
+              className="sen-font"
+            >
+              SeeLondon.com
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className="sen-font">
             <Link

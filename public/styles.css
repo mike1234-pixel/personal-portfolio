@@ -195,6 +195,12 @@ COLOR PALETTE:
   padding-bottom: 5rem;
 }
 
+@media (max-width: 420px) {
+  .section-two {
+    padding: 0 0 2rem;
+  }
+}
+
 .card {
   margin: 5rem 2rem 5rem;
   display: table-row;
@@ -393,7 +399,12 @@ COLOR PALETTE:
 /* Contact Page */
 
 .contact-page {
-  background-image: url("./background-images/Sheffieldtram.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(240, 240, 240, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("./background-images/ecclesall-road.jpeg");
   /* Image by Hammersfan from Sheffield, United Kingdom / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0), brightness and exposure adjusted from the original */
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,9 +414,14 @@ COLOR PALETTE:
   display: table;
 }
 
+.contact-heading {
+  margin-top: 10rem;
+}
+
 .contact-child-div {
-  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  /* text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8; */
   display: table-row;
+  text-align: center;
 }
 
 @media (min-width: 2560px) {
