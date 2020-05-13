@@ -17,7 +17,14 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={LOTRQuote} className="card-img" />
               <Card.Body>
                 <Card.Title>Movie Quote Generator</Card.Title>
-                <Card.Text>Random Quote Generator made with React.</Card.Text>
+                <Card.Text>
+                  Random Quote Generator made with React.<br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Card.Text>
 
                 <Button
                   variant="primary"
@@ -104,7 +111,13 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={JSCalculator} className="card-img" />
               <Card.Body>
                 <Card.Title>JS Calculator</Card.Title>
-                <Card.Text>JavaScript Calculator made with React.</Card.Text>
+                <Card.Text>
+                  JavaScript Calculator made with React. <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Card.Text>
                 <Button
                   variant="primary"
                   className="card-btn-left"
