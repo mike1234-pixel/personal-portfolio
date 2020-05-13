@@ -14,7 +14,7 @@ function Navigation() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <NavDropdown
-            title="Projects"
+            title="Apps"
             id="collasible-nav-dropdown"
             className="sen-font"
           >

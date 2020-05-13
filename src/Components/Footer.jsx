@@ -5,13 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 // font-awesome icons in react-icons https://react-icons.netlify.com/#/icons/fa
 
 function Footer() {
-  const date = new Date();
-  const year = date.getFullYear();
-
   return (
     <footer className="footer">
       <p className="footer-text">
-        Bulit by Michael Tandy {year} with React
+        Designed and built by Michael Tandy
         <a
           href="https://github.com/mike1234-pixel"
           target="_blank"
