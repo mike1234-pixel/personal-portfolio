@@ -18,7 +18,8 @@ function HomeSectionTwo() {
               <Card.Body>
                 <Card.Title>Movie Quote Generator</Card.Title>
                 <Card.Text>
-                  Random Quote Generator made with React.<br></br>
+                  Random Quote Generator made with React.
+                  <br></br>
                   <br></br>
                   <br></br>
                   <br></br>
@@ -55,7 +56,15 @@ function HomeSectionTwo() {
               />
               <Card.Body>
                 <Card.Title>Markdown Previewer</Card.Title>
-                <Card.Text>Markdown previewer made with React.</Card.Text>
+                <Card.Text>
+                  Markdown previewer made with React.
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Card.Text>
                 <Button
                   variant="primary"
                   className="card-btn-left"
@@ -81,6 +90,9 @@ function HomeSectionTwo() {
               <Card.Body>
                 <Card.Title>Drum Machine</Card.Title>
                 <Card.Text>Drum Machine made with React.</Card.Text>
+                <br></br>
+                <br></br>
+                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -117,6 +129,7 @@ function HomeSectionTwo() {
                   <br></br>
                   <br></br>
                   <br></br>
+                  <br></br>
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -147,9 +160,15 @@ function HomeSectionTwo() {
               />
               <Card.Body>
                 <Card.Title>Pomodoro Clock</Card.Title>
-                <Card.Text>Pomodoro Clock made with React.</Card.Text>
-                <br></br>
-                <br></br>
+                <Card.Text>
+                  Pomodoro Clock made with React. <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Card.Text>
+
                 <Button
                   variant="primary"
                   className="card-btn-left"
@@ -175,7 +194,14 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={SimonGame} className="card-img" />
               <Card.Body>
                 <Card.Title>Simon Game</Card.Title>
-                <Card.Text>Simon Game made using jQuery.</Card.Text>
+                <Card.Text>
+                  Simon Game made using jQuery. <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Card.Text>
                 <Button
                   variant="primary"
                   className="card-btn-left"
