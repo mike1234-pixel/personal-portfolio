@@ -1,0 +1,18 @@
+/* scrollbars */
+// not applicable in firefox, edge.
+
+body::-webkit-scrollbar {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #181617;
+}
+
+body::-webkit-scrollbar-button {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #e4e3e1;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #e4e3e1;
+}
+body::-webkit-scrollbar-corner {
+  background-color: #e4e3e1;
+}

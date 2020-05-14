@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import LOTRQuote from "../../Images/LOTRQuote.jpg";
 import MarkdownPreviewer from "../../Images/MarkdownPreviewer.jpg";
 import DrumMachine from "../../Images/DrumMachine.jpg";
@@ -17,33 +17,21 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={LOTRQuote} className="card-img" />
               <Card.Body>
                 <Card.Title>Movie Quote Generator</Card.Title>
-                <Card.Text>
-                  Random Quote Generator made with React.
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>Random Quote Generator made with React.</Card.Text>
+                <a
                   href="https://mike1234-pixel.github.io/LOTRQuote/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/LOTRQuote"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -56,31 +44,21 @@ function HomeSectionTwo() {
               />
               <Card.Body>
                 <Card.Title>Markdown Previewer</Card.Title>
-                <Card.Text>
-                  Markdown previewer made with React.
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>Markdown previewer made with React.</Card.Text>
+                <a
                   href="https://mike1234-pixel.github.io/MarkdownPreviewer/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/MarkdownPreviewer"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -89,29 +67,21 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={DrumMachine} className="card-img" />
               <Card.Body>
                 <Card.Title>Drum Machine</Card.Title>
-                <Card.Text>Drum Machine made with React.</Card.Text>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>Drum Machine app made with React.</Card.Text>
+                <a
                   href="https://mike1234-pixel.github.io/Drums/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/Drums"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -123,30 +93,21 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={JSCalculator} className="card-img" />
               <Card.Body>
                 <Card.Title>JS Calculator</Card.Title>
-                <Card.Text>
-                  JavaScript Calculator made with React. <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>JavaScript Calculator made with React.</Card.Text>
+                <a
                   href="https://mike1234-pixel.github.io/JSCalculator/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/JSCalculator"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -160,31 +121,21 @@ function HomeSectionTwo() {
               />
               <Card.Body>
                 <Card.Title>Pomodoro Clock</Card.Title>
-                <Card.Text>
-                  Pomodoro Clock made with React. <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>Pomodoro Clock made with React.</Card.Text>
+                <a
                   href="https://master.d2icos6v1wkh08.amplifyapp.com/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/Pomodoro-Clock"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -194,30 +145,21 @@ function HomeSectionTwo() {
               <Card.Img variant="top" src={SimonGame} className="card-img" />
               <Card.Body>
                 <Card.Title>Simon Game</Card.Title>
-                <Card.Text>
-                  Simon Game made using jQuery. <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  className="card-btn-left"
+                <Card.Text>Simon Game app made using jQuery.</Card.Text>
+                <a
                   href="https://mike1234-pixel.github.io/Simon-Game/"
                   target="_blank"
+                  className="btn btn--primary btn--left"
                 >
                   Project
-                </Button>
-                <Button
-                  variant="danger"
-                  className="card-btn-right"
+                </a>
+                <a
                   href="https://github.com/mike1234-pixel/Simon-Game"
                   target="_blank"
+                  className="btn btn--primary btn--right"
                 >
                   Code
-                </Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -228,8 +170,3 @@ function HomeSectionTwo() {
 }
 
 export default HomeSectionTwo;
-
-// Built using jQuery. The game requires a user to repeat the
-// sequence. If the user succeeds, the series becomes
-// progressively longer and more complex. Once the user fails,
-// the game is over.

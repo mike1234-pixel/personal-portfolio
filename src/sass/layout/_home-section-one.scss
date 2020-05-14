@@ -1,0 +1,76 @@
+/* Home Section One */
+
+.home-heading {
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+  display: table-row;
+  font-family: Sen;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 460px) {
+  .home-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .home-heading {
+    font-size: 10rem;
+  }
+}
+
+.motion-div {
+  width: 100vw;
+}
+
+.home-sections {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* adding display: table to parent and display: table-row to child makes the parent div height as big as its children, so the cards don't overflow onto subsequent divs*/
+.section-one {
+  display: table;
+  background-image: url("../../Images/Parkhill2.jpg");
+  /* Image by Paolo Margari from Sheffield, United Kingdom / Italy / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+  text-transform: uppercase;
+}
+
+.arrow a {
+  color: white;
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  font-size: 2rem;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

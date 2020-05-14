@@ -1,0 +1,69 @@
+/* Home Section Three */
+
+.section-three {
+  background-image: url("../../Images/Parkhill2.jpg");
+  /* Image by Paolo Margari from Sheffield, United Kingdom / Italy / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0), brightness and exposure adjusted from the original */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-shadow: 1px 1px 2px black, 0 0 1em #e8e7e8, 0 0 0.2em #e8e7e8;
+}
+
+/* FONT AWESOME ICONS (home section three) */
+
+.fa-icons {
+  font-size: 50px;
+  list-style: none;
+  display: table-row;
+  filter: drop-shadow(0 0 0.1rem white);
+  text-align: center;
+}
+
+@media (min-width: 2560px) {
+  .fa-icons {
+    font-size: 100px;
+  }
+}
+
+.html-logo {
+  color: red;
+}
+
+.css-logo {
+  color: blue;
+}
+
+.bootstrap-logo {
+  color: #60408c;
+}
+
+.js-logo {
+  color: #f0db4f;
+}
+
+.jquery-logo {
+  color: #0567ab;
+}
+
+.react-logo {
+  color: #5dd9fb;
+}
+
+.github-logo {
+  color: black;
+}
+
+.git-logo {
+  color: #f05033;
+}
+
+.node-logo {
+  color: #74ac63;
+}
+
+.mongodb-logo {
+  color: #69b240;
+}

@@ -1,0 +1,107 @@
+// generic button styling/functionality
+
+.btn {
+  height: 30px;
+  width: 100px;
+  color: $off-white;
+
+  &,
+  &:link,
+  &:visited {
+    background-color: $off-black;
+
+    text-decoration: none;
+    padding: 0.5rem 1rem 1.9rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.5s;
+    position: relative;
+    animation: moveInLeft 1s ease-in;
+    font-size: 1rem;
+    color: $off-white;
+
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover,
+  &:active {
+    outline: none;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba($off-black, 0.2);
+    color: $off-white;
+
+    &::after {
+      transform: scaleX(2) scaleY(1.5);
+      opacity: 0;
+    }
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($off-black, 0.2);
+  }
+
+  &--primary {
+    background-color: $off-black;
+    color: $off-white;
+    &::after {
+      background-color: $off-black;
+    }
+  }
+
+  &--white {
+    background-color: $off-white;
+    color: $off-white;
+    &::after {
+      background-color: $off-white;
+    }
+  }
+
+  &--left {
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  &--right {
+    position: absolute;
+    margin-top: 30%;
+    left: 14%;
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $off-white;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $off-black;
+    padding: 3px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    background-color: $off-black;
+    color: $off-white;
+    box-shadow: 0 1rem 2rem rgba($off-black, 0.15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($off-black, 0.15);
+    transform: translateY(0);
+  }
+}
