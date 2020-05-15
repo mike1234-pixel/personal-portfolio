@@ -18,34 +18,36 @@ function ContactPage() {
       className="motion-div"
     >
       <Navigation />
+
       <div className="contact-page">
         <div className="contact-child-div">
-          <h1 className="general-heading contact-heading">
-            Best ways to get in touch:
-          </h1>
-          <div className="general-body-text contact-body-text">
-            <IoMdText />
-            <h2>Text/SMS</h2>
-            <p>Best Response!</p>
-            <MdEmail />
-            <h2>Email</h2>
-            <p>Fast response!</p>
-            <FaPhone />
-            <h2>Phone</h2>
-            <p>Feel free to text or email to arrange a phone call.</p>
-            <MdVoicemail />
-            <h2>Voicemail</h2>
-            <p>I don't check my voicemail, sorry. </p>
-            <p>07769 583 616</p>
-            <a
-              href="mailto:mike.tandy.1@gmail.com"
-              style={{ textDecoration: "none" }}
-            >
-              <p className="contact-email">mike.tandy.1@gmail.com</p>
-            </a>
+          <div className="grid-container">
+            <div className="grid-item grid-item-1"></div>
+            <div className="grid-item grid-item-2"></div>
+            <div className="grid-item grid-item-3"></div>
+            <div className="grid-item grid-item-4"></div>
+            <div className="grid-item grid-item-5"></div>
+            <div className="grid-item grid-item-6">
+              <FaPhone />
+              <p>07769-583-616</p>
+            </div>
+            <div className="grid-item grid-item-7"></div>
+            <div className="grid-item grid-item-8">
+              <MdEmail />
+              <p>
+                mike.tandy.1<br></br>@gmail.com
+              </p>
+            </div>
+            <div className="grid-item grid-item-9"></div>
+            <div className="grid-item grid-item-10"></div>
+            <div className="grid-item grid-item-11"></div>
+            <div className="grid-item grid-item-12"></div>
+            <div className="grid-item grid-item-13"></div>
+            <div className="grid-item grid-item-14"></div>
           </div>
         </div>
       </div>
+
       <Footer />
     </motion.div>
   );

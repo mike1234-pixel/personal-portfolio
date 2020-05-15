@@ -21,6 +21,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://mike1234-pixel.github.io/LOTRQuote/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -28,6 +29,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/LOTRQuote"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
@@ -48,6 +50,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://mike1234-pixel.github.io/MarkdownPreviewer/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -55,6 +58,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/MarkdownPreviewer"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
@@ -71,6 +75,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://mike1234-pixel.github.io/Drums/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -78,6 +83,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/Drums"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
@@ -97,6 +103,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://mike1234-pixel.github.io/JSCalculator/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -104,6 +111,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/JSCalculator"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
@@ -125,6 +133,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://master.d2icos6v1wkh08.amplifyapp.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -132,6 +141,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/Pomodoro-Clock"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
@@ -149,6 +159,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://mike1234-pixel.github.io/Simon-Game/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--left"
                 >
                   Project
@@ -156,6 +167,7 @@ function HomeSectionTwo() {
                 <a
                   href="https://github.com/mike1234-pixel/Simon-Game"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn--primary btn--right"
                 >
                   Code
