@@ -121,7 +121,7 @@ function HomeSectionTwo() {
             <Card.Img variant="top" src={PomodoroClock} className="card-img" />
             <Card.Body>
               <Card.Title>Pomodoro Clock</Card.Title>
-              <Card.Text>Pomodoro Clock made with React.</Card.Text>
+              <Card.Text>Pomodoro Clock app made with React.</Card.Text>
               <a
                 href="https://master.d2icos6v1wkh08.amplifyapp.com/"
                 target="_blank"

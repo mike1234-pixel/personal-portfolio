@@ -16,12 +16,12 @@ function Navigation() {
           <NavDropdown
             title="Apps"
             id="collasible-nav-dropdown"
-            className="sen-font"
+            className="sans-serif-font"
           >
             <NavDropdown.Item
               href="https://mike1234-pixel.github.io/Simon-Game/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               Simon Game
             </NavDropdown.Item>
@@ -29,7 +29,7 @@ function Navigation() {
             <NavDropdown.Item
               href="https://ancient-stream-79404.herokuapp.com/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               Newsletter SignUp
             </NavDropdown.Item>
@@ -37,7 +37,7 @@ function Navigation() {
             <NavDropdown.Item
               href="https://mike1234-pixel.github.io/Drum-Machine/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               Drum Machine
             </NavDropdown.Item>
@@ -45,7 +45,7 @@ function Navigation() {
             <NavDropdown.Item
               href="https://immense-spire-07308.herokuapp.com/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               To-do List
             </NavDropdown.Item>
@@ -53,7 +53,7 @@ function Navigation() {
             <NavDropdown.Item
               href="https://github.com/mike1234-pixel/REST-API/blob/master/app.js"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               RESTful API
             </NavDropdown.Item>
@@ -61,7 +61,7 @@ function Navigation() {
             <NavDropdown.Item
               href="https://master.d2icos6v1wkh08.amplifyapp.com/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               Pomodoro Clock
             </NavDropdown.Item>
@@ -69,21 +69,21 @@ function Navigation() {
             <NavDropdown.Item
               href="https://mike1234-pixel.github.io/SeeLondon-Project/"
               target="_blank"
-              className="sen-font"
+              className="sans-serif-font"
             >
               SeeLondon.com
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className="sen-font">
+          <Nav.Link className="sans-serif-font">
             <Link
               to="/AboutMe"
               style={{ color: "inherit", textDecoration: "inherit" }}
-              className="sen-font"
+              className="sans-serif-font"
             >
               About Me
             </Link>
           </Nav.Link>
-          <Nav.Link className="sen-font">
+          <Nav.Link className="sans-serif-font">
             <Link
               to="/Contact"
               style={{ color: "inherit", textDecoration: "inherit" }}
