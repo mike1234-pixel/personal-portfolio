@@ -1,17 +1,4 @@
-/* Home Section Two */
-
-.section-two {
-  background-color: #181617;
-  display: table;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-@media (max-width: 420px) {
-  .section-two {
-    padding: 0 0 2rem;
-  }
-}
+///////////////////////////// CARDS
 
 .card {
   margin-top: 2.5rem;
@@ -43,4 +30,57 @@
 
 .card-img {
   filter: grayscale(50%);
+}
+
+/////////////////////////////// GRID SECTION
+.home-section-two-container {
+  display: table;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.home-grid {
+  min-height: 100vh;
+  background-color: $off-black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  &-item {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    &-1 {
+      background-color: $off-black;
+    }
+    &-2 {
+      background-color: $off-black;
+    }
+    &-3 {
+      background-color: $off-black;
+    }
+    &-4 {
+      background-color: $off-black;
+    }
+    &-5 {
+      background-color: $off-black;
+    }
+    &-6 {
+      background-color: $off-black;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .home-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 770px) {
+  .home-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
