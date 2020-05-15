@@ -3,8 +3,7 @@ import Navigation from "./Navigation.jsx";
 import Footer from "./Footer.jsx";
 import { motion } from "framer-motion";
 import pageTransition from "./pageTransition.js";
-import { IoMdText } from "react-icons/io";
-import { MdEmail, MdVoicemail } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
 
 function ContactPage() {

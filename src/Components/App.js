@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Home.jsx";
 import AboutMePage from "./AboutMePage.jsx";
-import ContactPage from "./ContactPage";
+import ContactPage from "./ContactPage.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import { Route, Switch, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";

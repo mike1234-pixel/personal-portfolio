@@ -17,36 +17,40 @@ function AboutMePage() {
     >
       <Navigation />
       <div className="about-me-page">
-        <div className="about-me-child-div">
-          <h1 className="general-heading">Hi</h1>
-          <br></br>
-          <div className="general-body-text about-body-text">
-            <p>
-              I'm Mike Tandy, an enthusiastic and passionate web developer
-              working with JavaScript across the full stack, along with HTML,
-              CSS and Sass on the front-end.
-            </p>
-            <hr className="about-hr"></hr>
-            <p>
-              I'm all about solving problems and making things work as desired,
-              and will keep on googling until that happens!
-            </p>
-            <p>
-              I enjoy writing well-architected, organised and modular code and
-              look to implement this as best as I can. I am always looking for
-              new hacks.
-            </p>
-            <hr className="about-hr"></hr>
-            <p className="about-p">
-              If you would like to discuss development please feel free to{" "}
-              <Link to="/Contact" style={{ textDecoration: "none" }}>
-                contact me
-              </Link>
-              .
-            </p>
-
-            <br></br>
+        <div className="about-grid-container">
+          <div className="about-grid-item about-grid-item-1"></div>
+          <div className="about-grid-item about-grid-item-2">
+            Hi, I'm Mike, a web developer working with JavaScript across the
+            full stack, primarily React and Node.js.
           </div>
+          <div className="about-grid-item about-grid-item-3"></div>
+          <div className="about-grid-item about-grid-item-4"></div>
+          <div className="about-grid-item about-grid-item-5">
+            I enjoy writing well-architected, organised and modular code.
+          </div>
+          <div className="about-grid-item about-grid-item-6"></div>
+          <div className="about-grid-item about-grid-item-7"></div>
+          <div className="about-grid-item about-grid-item-8">
+            I enjoy creating good design and love CSS Grids.
+          </div>
+          <div className="about-grid-item about-grid-item-9"></div>
+          <div className="about-grid-item about-grid-item-10"></div>
+          <div className="about-grid-item about-grid-item-11">
+            Outside of development I enjoy reading, keeping fit and playing
+            Mortal Kombat.
+          </div>
+          <div className="about-grid-item about-grid-item-12"></div>
+          <div className="about-grid-item about-grid-item-13">
+            I am open to discuss anything so if you have something you would
+            like to talk to me about please{" "}
+            <Link
+              to="/Contact"
+              style={{ color: "inherit", textDecoration: "inherit" }}
+            >
+              get in touch.
+            </Link>
+          </div>
+          <div className="about-grid-item about-grid-item-14"></div>
         </div>
       </div>
       <Footer />
