@@ -24,7 +24,6 @@ class Dropdown extends React.Component {
         menuClassName: "visible",
       });
     }
-    console.log(this.state.menuClassName);
   }
 
   handleClickOutside(e) {

@@ -1,3 +1,8 @@
+// fix - stops the navbar expanding too far on mobile
+.navbar {
+  max-height: 260px;
+}
+
 .initialState {
   height: 0;
   opacity: 0;
