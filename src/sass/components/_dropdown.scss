@@ -1,0 +1,140 @@
+.initialState {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+// want the dropdown menu to be positioned relative to the dropdown button
+
+.dropdown-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.dropdown-button {
+  height: 30px;
+  z-index: 50;
+  width: 75px;
+  border-radius: 10px;
+  &:focus {
+    outline: none !important;
+  }
+  &:hover {
+    background-color: #e3dac9;
+  }
+}
+
+#dropdown-menu {
+  position: absolute;
+  height: 0;
+  top: 75px;
+}
+
+@media (max-width: 991px) {
+  #dropdown-menu {
+    top: 142px;
+  }
+  .dropdown-button {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 383px) {
+  #dropdown-menu {
+    top: 182px;
+  }
+}
+
+@media (min-width: 991px) {
+  .dropdown-button {
+    margin-left: 10px;
+  }
+}
+
+.nav-item,
+.nav-link {
+  text-decoration: none;
+  color: $off-white;
+}
+
+.nav.link:visited {
+  color: #a1a1a1;
+}
+.nav-link:hover {
+  color: #a1a1a1;
+}
+.nav-link:active {
+  color: #a1a1a1;
+}
+
+.visible {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  z-index: 40;
+  list-style: none;
+  line-height: 0px;
+  padding: 5px;
+  color: $off-white;
+  background-color: $off-black;
+
+  animation-name: transitionIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+
+  @keyframes transitionIn {
+    from {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      // transform: translateY(-50%);
+      line-height: 0px;
+      padding: 5px;
+    }
+
+    to {
+      height: 370px;
+      opacity: 1;
+      visibility: visible;
+      // transform: translateY(-15%);
+      line-height: 30px;
+      padding: 20px;
+    }
+  }
+}
+
+.invisible {
+  opacity: 1;
+  visibility: visible;
+  height: 370px;
+  z-index: 40;
+  list-style: none;
+  line-height: 30px;
+  padding: 20px;
+  color: $off-white;
+  background-color: $off-black;
+  animation-name: transitionOut;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  @keyframes transitionOut {
+    from {
+      height: 370px;
+      opacity: 1;
+      visibility: visible;
+      // transform: translateY(-15%);
+      line-height: 30px;
+      padding: 20px;
+    }
+
+    to {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      // transform: translateY(-50%);
+      line-height: 0;
+      padding: 5px;
+    }
+  }
+}
