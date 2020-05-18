@@ -63,7 +63,7 @@ class Dropdown extends React.Component {
     return (
       <div className="dropdown-container">
         <button className="dropdown-button" onClick={this.handleClick}>
-          Apps
+          Projects
         </button>
         <ul className={this.state.menuClassName} id="dropdown-menu">
           <li className="nav-item">
