@@ -1,11 +1,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import LOTRQuote from "../../Images/LOTRQuote.jpg";
-import MarkdownPreviewer from "../../Images/MarkdownPreviewer.jpg";
-import DrumMachine from "../../Images/DrumMachine.jpg";
-import JSCalculator from "../../Images/JSCalculator.jpg";
-import PomodoroClock from "../../Images/PomodoroClock.jpg";
-import SimonGame from "../../Images/SimonGame.jpg";
+import LOTRQuoteCompressed from "../../Images/LOTRQuoteCompressed.jpg";
+import MarkdownPreviewerCompressed from "../../Images/MarkdownPreviewerCompressed.jpg";
+import DrumMachineCompressed from "../../Images/DrumMachineCompressed.jpg";
+import JSCalculatorCompressed from "../../Images/JSCalculatorCompressed.jpg";
+import PomodoroClockCompressed from "../../Images/PomodoroClockCompressed.jpg";
+import SimonGameCompressed from "../../Images/SimonGameCompressed.jpg";
 
 function HomeSectionTwo() {
   return (
@@ -13,7 +13,11 @@ function HomeSectionTwo() {
       <div className="home-grid">
         <div className="home-grid-item home-grid-item-1">
           <Card style={{ width: "18rem" }} className="card">
-            <Card.Img variant="top" src={LOTRQuote} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={LOTRQuoteCompressed}
+              className="card-img"
+            />
             <Card.Body>
               <Card.Title>Movie Quote Generator</Card.Title>
               <Card.Text>Random Quote Generator made with React.</Card.Text>
@@ -40,7 +44,7 @@ function HomeSectionTwo() {
           <Card style={{ width: "18rem" }} className="card">
             <Card.Img
               variant="top"
-              src={MarkdownPreviewer}
+              src={MarkdownPreviewerCompressed}
               className="card-img"
             />
             <Card.Body>
@@ -67,7 +71,11 @@ function HomeSectionTwo() {
         </div>
         <div className="home-grid-item home-grid-item-3">
           <Card style={{ width: "18rem" }} className="card">
-            <Card.Img variant="top" src={DrumMachine} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={DrumMachineCompressed}
+              className="card-img"
+            />
             <Card.Body>
               <Card.Title>Drum Machine</Card.Title>
               <Card.Text>Drum Machine app made with React.</Card.Text>
@@ -92,7 +100,11 @@ function HomeSectionTwo() {
         </div>
         <div className="home-grid-item home-grid-item-4">
           <Card style={{ width: "18rem" }} className="card">
-            <Card.Img variant="top" src={JSCalculator} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={JSCalculatorCompressed}
+              className="card-img"
+            />
             <Card.Body>
               <Card.Title>JS Calculator</Card.Title>
               <Card.Text>JavaScript Calculator made with React.</Card.Text>
@@ -118,7 +130,11 @@ function HomeSectionTwo() {
         <div className="home-grid-item home-grid-item-5">
           {" "}
           <Card style={{ width: "18rem" }} className="card">
-            <Card.Img variant="top" src={PomodoroClock} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={PomodoroClockCompressed}
+              className="card-img"
+            />
             <Card.Body>
               <Card.Title>Pomodoro Clock</Card.Title>
               <Card.Text>Pomodoro Clock app made with React.</Card.Text>
@@ -143,7 +159,11 @@ function HomeSectionTwo() {
         </div>
         <div className="home-grid-item home-grid-item-6">
           <Card style={{ width: "18rem" }} className="card">
-            <Card.Img variant="top" src={SimonGame} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={SimonGameCompressed}
+              className="card-img"
+            />
             <Card.Body>
               <Card.Title>Simon Game</Card.Title>
               <Card.Text>Simon Game app made using jQuery.</Card.Text>

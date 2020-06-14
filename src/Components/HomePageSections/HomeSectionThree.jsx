@@ -35,7 +35,7 @@ function HomeSectionThree() {
           <li>
             <FaGitAlt className="git-logo" />
             <IoLogoGithub className="github-logo" />
-            <br></br>Git, Github, Unix CLI
+            <br></br>Git, Github, Linux, Ubuntu
           </li>
           <li>
             <FaNodeJs className="node-logo" /> <br></br>Node.js, Express, EJS
