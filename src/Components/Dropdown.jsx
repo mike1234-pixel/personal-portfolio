@@ -68,7 +68,7 @@ class Dropdown extends React.Component {
         <ul className={this.state.menuClassName} id="dropdown-menu">
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/LOTRQuote/"
+              href="https://master.d3fb1rattu62ed.amplifyapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
@@ -78,7 +78,7 @@ class Dropdown extends React.Component {
           </li>
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/MarkdownPreviewer/"
+              href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-two/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
@@ -88,7 +88,7 @@ class Dropdown extends React.Component {
           </li>
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/Drums/"
+              href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-three/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
@@ -98,7 +98,7 @@ class Dropdown extends React.Component {
           </li>
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/JSCalculator/"
+              href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-four/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
@@ -118,7 +118,7 @@ class Dropdown extends React.Component {
           </li>
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/Simon-Game/"
+              href="https://mike1234-pixel.github.io/simon-game/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
@@ -128,7 +128,7 @@ class Dropdown extends React.Component {
           </li>
           <li className="nav-item">
             <a
-              href="https://mike1234-pixel.github.io/SeeLondon-Project/"
+              href="https://mike1234-pixel.github.io/see-london/"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"

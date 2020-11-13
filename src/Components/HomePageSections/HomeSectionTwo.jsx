@@ -22,7 +22,7 @@ function HomeSectionTwo() {
               <Card.Title>Movie Quote Generator</Card.Title>
               <Card.Text>Random Quote Generator made with React.</Card.Text>
               <a
-                href="https://mike1234-pixel.github.io/LOTRQuote/"
+                href="https://master.d3fb1rattu62ed.amplifyapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--left"
@@ -30,7 +30,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/LOTRQuote"
+                href="https://github.com/mike1234-pixel/fcc-frontend-libraries-project-one"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
@@ -51,7 +51,7 @@ function HomeSectionTwo() {
               <Card.Title>Markdown Previewer</Card.Title>
               <Card.Text>Markdown previewer made with React.</Card.Text>
               <a
-                href="https://mike1234-pixel.github.io/MarkdownPreviewer/"
+                href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-two/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--left"
@@ -59,7 +59,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/MarkdownPreviewer"
+                href="https://github.com/mike1234-pixel/fcc-frontend-libraries-project-two"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
@@ -80,7 +80,7 @@ function HomeSectionTwo() {
               <Card.Title>Drum Machine</Card.Title>
               <Card.Text>Drum Machine app made with React.</Card.Text>
               <a
-                href="https://mike1234-pixel.github.io/Drums/"
+                href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-three/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--left"
@@ -88,7 +88,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/Drums"
+                href="https://github.com/mike1234-pixel/fcc-frontend-libraries-project-three"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
@@ -109,7 +109,7 @@ function HomeSectionTwo() {
               <Card.Title>JS Calculator</Card.Title>
               <Card.Text>JavaScript Calculator made with React.</Card.Text>
               <a
-                href="https://mike1234-pixel.github.io/JSCalculator/"
+                href="https://mike1234-pixel.github.io/fcc-frontend-libraries-project-four/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--left"
@@ -117,7 +117,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/JSCalculator"
+                href="https://github.com/mike1234-pixel/fcc-frontend-libraries-project-four"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
@@ -147,7 +147,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/Pomodoro-Clock"
+                href="https://github.com/mike1234-pixel/fcc-frontend-libraries-project-five"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
@@ -168,7 +168,7 @@ function HomeSectionTwo() {
               <Card.Title>Simon Game</Card.Title>
               <Card.Text>Simon Game app made using jQuery.</Card.Text>
               <a
-                href="https://mike1234-pixel.github.io/Simon-Game/"
+                href="https://mike1234-pixel.github.io/simon-game/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--left"
@@ -176,7 +176,7 @@ function HomeSectionTwo() {
                 Project
               </a>
               <a
-                href="https://github.com/mike1234-pixel/Simon-Game"
+                href="https://github.com/mike1234-pixel/simon-game"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--primary btn--right"
